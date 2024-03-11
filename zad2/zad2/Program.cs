@@ -17,16 +17,16 @@
     
     static float Srednia(int[] tab)
     {
-        float srednia = 0;
+        float sred = 0;
         
         foreach (int num in tab)
         {
-            srednia += num;
+            sred += num;
         }
         
-        srednia = srednia / tab.Length;
+        sred = sred / tab.Length;
 
-        return srednia;
+        return sred;
     }
     
     
